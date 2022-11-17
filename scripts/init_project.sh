@@ -9,7 +9,7 @@ done
 
 # Check if arguments are provided
 if [ -z "$starterLocation" ]; then
-  echo "Please enter the q_flutter_starter location" && exit 1
+  echo "Please enter the my_flutter_starter location" && exit 1
 fi
 if [ -z "$appName" ]; then
   echo "Please provide the app name using the -n option" && exit 1

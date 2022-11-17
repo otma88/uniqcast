@@ -755,3 +755,30 @@ logger.w('Log warning');
 logger.e('Log error');
 logger.wtf('Log when you have no idea what's going on');
 ```
+
+## Add feature functionality steps:
+
+1. Add feature
+```
+bash add-feature.sh
+```
+Answer all questions
+
+2. Add model/repository/notifier in feature with mason
+
+example:
+```
+mason make model
+```
+
+3. Add feature from brick
+
+In mason.yaml add brick from repo
+
+```
+mason get
+```
+
+```
+mason make brick_name
+```
