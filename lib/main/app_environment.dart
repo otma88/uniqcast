@@ -9,7 +9,7 @@ enum AppEnvironment {
   PROD(
     env: 'prod',
     appTitle: 'UniqCast',
-    apiBaseUrl: 'API_BASE_PROD',
+    apiBaseUrl: 'https://tvprofil.net',
     assetBaseUrl: 'ASSET_BASE_PROD',
   ),
   STAGING(

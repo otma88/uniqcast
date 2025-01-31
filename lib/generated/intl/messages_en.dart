@@ -22,11 +22,9 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-    "permission_denied": MessageLookupByLibrary.simpleMessage(
-      "Permission has been denied, please enable it in device settings",
-    ),
-    "unknown_error_occurred": MessageLookupByLibrary.simpleMessage(
-      "Unknown error occurred",
-    ),
-  };
+        "permission_denied": MessageLookupByLibrary.simpleMessage(
+            "Permission has been denied, please enable it in device settings"),
+        "unknown_error_occurred":
+            MessageLookupByLibrary.simpleMessage("Unknown error occurred")
+      };
 }

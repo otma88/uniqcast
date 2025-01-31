@@ -7,6 +7,6 @@ part 'api_client.g.dart';
 abstract class ApiClient {
   factory ApiClient(Dio dio) = _ApiClient;
 
-  @POST('/token')
-  Future<String> getToken();
+  @GET('/xmltv/data/epg_tvprofil.net.xml')
+  Future<String> getXmlData();
 }

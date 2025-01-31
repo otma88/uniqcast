@@ -125,10 +125,7 @@ dart_code_metrics:
         severity: warning
     - prefer-last:
         severity: warning
-    - prefer-match-file-name:
-        severity: warning
-        exclude:
-          - "**/main.dart"
+    - prefer-match-file-name: false
 
   # For clarification please visit: https://dartcodemetrics.dev/docs/metrics/overview
   metrics:
